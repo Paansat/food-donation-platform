@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Waste Donation for Old Age Homes</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<div id="popup-message" class="popup-message" style="display: none;"></div>
+
+<body>
+    <header>
+        <h1>Food Donations..</h1>
+    </header>
+    <main>
+        <section id="donation-form">
+            <h2>Donate Food</h2>
+            <form id="food-form">
+                <label for="food-name">Food Name:</label>
+                <input type="text" id="food-name" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" required>
+
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="date" id="expiry-date" required>
+
+                <label for="location">Pickup Location(Organization name):</label>
+                <input type="text" id="location" required>
+
+                <button type="submit">Submit</button>
+                <div id="message-box" class="message" style="display: none;"></div>
+
+            </form>
+        </section>
+        <section id="available-food">
+            <h2>Available Food</h2>
+            <div id="food-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Food Waste Donation. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

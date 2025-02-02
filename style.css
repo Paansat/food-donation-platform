@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d7cece;
+    background-image: url('/images/food.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+    margin: 0;
+    padding: 0;
+}
+
+  
+  header {
+    background-color: #3bb63f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1,
+  h2 {
+    color: #e9dcdc;
+    margin-bottom: 1rem;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  form {
+    background-color: rgb(245, 242, 242);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #140606;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #36af3a;
+    color: rgb(237, 229, 229);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #food-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .food-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-item button {
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 311px;
+  }
+ /* Center the login form */
+.login-container {
+  width: 100%;
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #b9b3b3; /* Changed background color to light gray */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+/* Style for the heading */
+.login-container h2 {
+  font-size: 48px; /* Increased font size from 40px to 48px */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  font-style: bold;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+/* Input fields */
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+/* Style for the login button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #ff5733; /* Orange button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #14b837;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.login-container button:hover {
+  background: #e64a19; 
+  /* Darker shade when hovered */
+}
+
+/* Error message */
+#login-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    
+  }
+
+  .login-container h2 {
+    font-size: 40px; /* Slightly smaller font size for mobile devices */
+   
+  }
+  
+
+}
+
