@@ -6,8 +6,8 @@
 
 
 ### Team Members
-- Member 1: [parvathy abhilash] - [College of engineering munnar]
-- Member 2: [Anwaya] - [College of engineering munnar]
+- Member 1: parvathy abhilash - [College of engineering munnar]
+- Member 2: Anwaya - [College of engineering munnar]
 
 
 ### Hosted Project Link
